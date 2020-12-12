@@ -17,7 +17,7 @@ class XylophoneApp extends StatelessWidget {
         onPressed: () {
           playSound(noteNumber: noteNumber, secondNumber: 0);
         },
-        child: Text('Play audio from asset'),
+        child: Text('Play audio $noteNumber'),
       ),
     );
   }
